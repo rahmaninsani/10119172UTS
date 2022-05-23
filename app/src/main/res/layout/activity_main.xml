@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    NIM     : 10119172
+    Nama    : Rahman Insani
+    Kelas   : IF-5
+
+    Selasa, 08 Mei 2022
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/bottom_navigation"
+        android:layout_alignParentTop="true">
+    </FrameLayout>
+
+    <nl.joery.animatedbottombar.AnimatedBottomBar
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorBlue"
+        app:abb_indicatorAppearance="round"
+        app:abb_indicatorHeight="@dimen/dimen4"
+        app:abb_indicatorMargin="@dimen/dimen16"
+        app:abb_rippleEnabled="true"
+        app:abb_rippleColor="@color/colorOrange"
+        app:abb_selectedIndex="2"
+        app:abb_selectedTabType="text"
+        app:abb_tabs="@menu/menu"
+        app:abb_tabColor="@color/white"
+        app:abb_tabColorSelected="@color/colorOrange"
+        app:abb_textStyle="bold"
+        app:abb_indicatorColor="@color/colorOrange"
+        />
+
+</RelativeLayout>

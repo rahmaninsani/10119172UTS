@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    NIM     : 10119172
+    Nama    : Rahman Insani
+    Kelas   : IF-5
+
+    Selasa, 08 Mei 2022
+-->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfileFragment"
+    android:background="@color/white"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/profile_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlue"
+            android:orientation="vertical"
+            android:paddingVertical="@dimen/dimen24">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="@dimen/dimen120"
+                android:layout_height="@dimen/dimen120"
+                android:layout_gravity="center"
+                android:src="@drawable/rahman_insani" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen12"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingHorizontal="@dimen/dimen24">
+
+                <TextView
+                    android:id="@+id/user_name"
+                    style="@style/TextNunitoBoldWhite20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name" />
+
+                <TextView
+                    android:id="@+id/user_profession"
+                    style="@style/TextRubikRegularGray12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen12"
+                    android:text="@string/about_me_body"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="@dimen/dimen48"
+                android:paddingVertical="@dimen/dimen16">
+
+                <LinearLayout
+                    android:id="@+id/phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:background="@drawable/profile_circle_icon_bg"
+                    android:padding="@dimen/dimen20">
+
+                    <ImageView
+                        android:id="@+id/phone_image"
+                        android:layout_width="@dimen/dimen24"
+                        android:layout_height="@dimen/dimen24"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_profile_phone" />
+
+                    <TextView
+                        android:id="@+id/phone_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/profile_circle_icon_bg"
+                    android:padding="@dimen/dimen20">
+
+                    <ImageView
+                        android:id="@+id/email_image"
+                        android:layout_width="@dimen/dimen24"
+                        android:layout_height="@dimen/dimen24"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_profile_email" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/instagram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/profile_circle_icon_bg"
+                    android:padding="@dimen/dimen20">
+
+                    <ImageView
+                        android:id="@+id/instagram_image"
+                        android:layout_width="@dimen/dimen24"
+                        android:layout_height="@dimen/dimen24"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_activity_instagram" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dimen24"
+                android:layout_marginTop="@dimen/dimen8"
+                android:background="@drawable/button_orange_rounded"
+                android:padding="@dimen/dimen12">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/about_image"
+                        android:layout_width="@dimen/dimen20"
+                        android:layout_height="@dimen/dimen20"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_profile_info" />
+
+                    <TextView
+                        android:id="@+id/about_text"
+                        style="@style/TextRubikRegularWhite16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="@dimen/dimen12"
+                        android:gravity="center"
+                        android:text="@string/about" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_map_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/profile_header"
+            android:orientation="horizontal" />
+
+    </RelativeLayout>
+
+</ScrollView>
+

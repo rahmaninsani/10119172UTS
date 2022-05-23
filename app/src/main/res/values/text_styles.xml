@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    NIM     : 10119172
+    Nama    : Rahman Insani
+    Kelas   : IF-5
+
+    Selasa, 08 Mei 2022
+-->
+
+<resources>
+    <style name="NunitoBold" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/nunito_bold</item>
+    </style>
+
+    <style name="RubikRegular" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/rubik_regular</item>
+    </style>
+
+    <style name="TextNunitoBoldWhite20AllCaps" parent="NunitoBold">
+        <item name="android:textSize">@dimen/font20</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="TextNunitoBoldWhite20" parent="NunitoBold">
+        <item name="android:textSize">@dimen/font20</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextNunitoBoldWhite16" parent="NunitoBold">
+        <item name="android:textSize">@dimen/font16</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextNunitoBoldWhite24" parent="NunitoBold">
+        <item name="android:textSize">@dimen/font24</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextNunitoBoldBlack20" parent="NunitoBold">
+        <item name="android:textSize">@dimen/font20</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextRubikRegularWhite16" parent="RubikRegular">
+        <item name="android:textSize">@dimen/font16</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextRubikRegularWhite14" parent="RubikRegular">
+        <item name="android:textSize">@dimen/font14</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextRubikRegularWhite12" parent="RubikRegular">
+        <item name="android:textSize">@dimen/font12</item>
+        <item name="android:textColor">#E1E1E1</item>
+    </style>
+
+    <style name="TextRubikRegularGray16" parent="RubikRegular">
+        <item name="android:textSize">@dimen/font16</item>
+        <item name="android:textColor">#E1E1E1</item>
+    </style>
+
+    <style name="TextRubikRegularGray12" parent="RubikRegular">
+        <item name="android:textSize">@dimen/font12</item>
+        <item name="android:textColor">#E1E1E1</item>
+    </style>
+
+    <style name="TextRubikRegularBlack14" parent="RubikRegular">
+        <item name="android:textSize">@dimen/font14</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+
+</resources>

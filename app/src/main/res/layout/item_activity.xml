@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    NIM     : 10119172
+    Nama    : Rahman Insani
+    Kelas   : IF-5
+
+    Selasa, 08 Mei 2022
+-->
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/dimen12"
+    app:cardUseCompatPadding="true"
+    android:elevation="@dimen/dimen2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOrange"
+        android:padding="@dimen/dimen12">
+
+        <ImageView
+            android:id="@+id/activity_image"
+            android:layout_width="@dimen/dimen28"
+            android:layout_height="@dimen/dimen28"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_goal_laptop" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dimen12">
+
+            <TextView
+                android:id="@+id/activity_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextNunitoBoldWhite16"
+                android:text="Activity Title" />
+
+            <TextView
+                android:id="@+id/activity_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen2"
+                style="@style/TextRubikRegularWhite12"
+                android:text="Activity Description" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

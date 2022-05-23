@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    NIM     : 10119172
+    Nama    : Rahman Insani
+    Kelas   : IF-5
+
+    Selasa, 08 Mei 2022
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WalkthroughActivity"
+    android:background="@color/colorBlue">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/walkthrough_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"/>
+
+    <LinearLayout
+        android:id="@+id/walkthrough_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen16"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/walkthrough_button"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/walkthrough_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen32"
+        android:layout_marginStart="@dimen/dimen32"
+        android:layout_marginEnd="@dimen/dimen32"
+        android:layout_marginBottom="@dimen/dimen32"
+        style="@style/ButtonOrangeBorder" />
+
+
+
+
+</RelativeLayout>

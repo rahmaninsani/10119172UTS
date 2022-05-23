@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    NIM     : 10119172
+    Nama    : Rahman Insani
+    Kelas   : IF-5
+
+    Selasa, 08 Mei 2022
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.HomeFragment"
+    android:background="@color/colorBlue">
+
+    <LinearLayout
+        android:id="@+id/home_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dimen24"
+        android:layout_marginVertical="@dimen/dimen24"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="@dimen/dimen80"
+            android:layout_height="@dimen/dimen80"
+            android:src="@drawable/rahman_insani" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dimen16">
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                style="@style/TextNunitoBoldWhite20" />
+
+            <TextView
+                android:id="@+id/user_profession"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nim"
+                android:layout_marginTop="@dimen/dimen4"
+                style="@style/TextRubikRegularGray16" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/home_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/home_header"
+        android:background="@drawable/home_body">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/about_me"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginHorizontal="@dimen/dimen40"
+                    android:layout_marginVertical="@dimen/dimen24"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/about_me_body"
+                        style="@style/TextRubikRegularBlack14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/dimen12"
+                        android:textAlignment="center"
+                        android:text="@string/about_me_body" />
+
+                    <View
+                        android:layout_width="@dimen/dimen200"
+                        android:layout_height="@dimen/dimen2"
+                        android:layout_marginTop="@dimen/dimen16"
+                        android:layout_gravity="center"
+                        android:background="@color/colorGray" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/my_goal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginHorizontal="@dimen/dimen24"
+                    android:layout_below="@id/about_me"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/TextNunitoBoldBlack20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/my_goal_header" />
+
+                    <androidx.core.widget.NestedScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen16"
+                        android:scrollbars="none"
+                        android:fillViewport="true">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/home_goals"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </androidx.core.widget.NestedScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/my_hobby"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/my_goal"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginHorizontal="@dimen/dimen24"
+                    android:layout_marginTop="@dimen/dimen24"
+                    android:layout_marginBottom="@dimen/dimen80"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/TextNunitoBoldBlack20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/my_hobby_header" />
+
+                    <androidx.core.widget.NestedScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen16"
+                        android:fillViewport="true"
+                        android:scrollbars="none">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/home_hobbies"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </androidx.core.widget.NestedScrollView>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

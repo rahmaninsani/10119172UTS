@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    NIM     : 10119172
+    Nama    : Rahman Insani
+    Kelas   : IF-5
+
+    Selasa, 08 Mei 2022
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.GalleryFragment"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/gallery_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/dimen16"
+        android:paddingVertical="@dimen/dimen16">
+
+        <TextView
+            style="@style/TextNunitoBoldWhite20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/gallery" />
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/gallery_header">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/gallery_body"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/dimen72" />
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

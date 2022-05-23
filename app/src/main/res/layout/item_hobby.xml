@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    NIM     : 10119172
+    Nama    : Rahman Insani
+    Kelas   : IF-5
+
+    Selasa, 08 Mei 2022
+-->
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dimen120"
+    android:layout_height="@dimen/dimen180"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/dimen12"
+    app:cardUseCompatPadding="true"
+    android:elevation="@dimen/dimen2">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorOrange">
+
+        <ImageView
+            android:id="@+id/hobby_image"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/dimen40"
+            android:layout_height="@dimen/dimen40"
+            android:src="@drawable/ic_hobby_game" />
+
+        <TextView
+            android:id="@+id/hobby_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="@dimen/dimen12"
+            style="@style/TextRubikRegularWhite14"
+            android:text="Hobby Title" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

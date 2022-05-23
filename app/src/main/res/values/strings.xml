@@ -1,0 +1,105 @@
+<!--
+    NIM     : 10119172
+    Nama    : Rahman Insani
+    Kelas   : IF-5
+
+    Selasa, 08 Mei 2022
+-->
+
+<resources>
+    <string name="app_name">Rahman Insani</string>
+    <string name="app_version">Versi 1.0</string>
+    <string name="nim">10119172</string>
+    <string name="phone_number">+628997074942</string>
+    <string name="email">rahman.10119172@mahasiswa.unikom.ac.id</string>
+    <string name="instagram">rahmaninsani_</string>
+
+    <string name="walkthrough1_title">Selamat Datang</string>
+    <string name="walkthrough1_subtitle">Ini aplikasi tentang Rahman Insani</string>
+    <string name="walkthrough2_title">Profil, Aktivitas, Hobi, Musik, dan Video</string>
+    <string name="walkthrough2_subtitle">Kamu bisa kepoin profil, aktivitas, hobi, galeri, daftar teman, dan masih banyak lagi…</string>
+    <string name="walkthrough3_title">Yuk Lebih Deket</string>
+    <string name="walkthrough3_subtitle">Kamu bisa hubungi aku lewat kontak di aplikasi ini juga lho</string>
+
+    <string name="next">Lanjut</string>
+    <string name="start">Mulai</string>
+
+    <string name="home">Home</string>
+    <string name="activity">Activity</string>
+    <string name="friends">Friends</string>
+    <string name="gallery">Gallery</string>
+    <string name="media">Media</string>
+    <string name="video">Video</string>
+    <string name="music">Music</string>
+    <string name="profile">Profile</string>
+    <string name="about">About</string>
+
+    <string name="about_me_header">About Me</string>
+    <string name="about_me_body">Mahasiswa Teknik Informatika yang menekuni bidang Back End Development dan tertarik terhadap Cloud Computing</string>
+
+    <string name="my_hobby_header">Hobbies</string>
+    <string name="my_hobby_1">Main Game</string>
+    <string name="my_hobby_2">Mendengarkan Musik</string>
+    <string name="my_hobby_3">Menonton Film</string>
+    <string name="my_hobby_4">Rekreasi ke Alam</string>
+    <string name="my_hobby_5">Berenang</string>
+
+    <string name="my_goal_header">Goals</string>
+    <string name="my_goal_1">Software Engineer</string>
+    <string name="my_goal_2">Wirausaha</string>
+    <string name="my_goal_3">Guru</string>
+
+    <string name="friend1">Annisa</string>
+    <string name="friend2">Taufiq</string>
+    <string name="friend3">Nesta</string>
+    <string name="friend4">Fazri</string>
+    <string name="friend5">Sania</string>
+    <string name="friend6">Anggi</string>
+    <string name="friend7">Renis</string>
+    <string name="friend8">Renur</string>
+
+
+    <string name="activity_title1">Ibadah</string>
+    <string name="activity_description1">Salat 5 waktu dan ibadah lainnya</string>
+
+    <string name="activity_title2">Kuliah</string>
+    <string name="activity_description2">Berkuliah sesuai jadwal dari kampus</string>
+
+    <string name="activity_title3">Mengurus Kucing</string>
+    <string name="activity_description3">Saya merawat 1 kucing di rumah dan 5 kucing liar</string>
+
+    <string name="activity_title4">Mendengarkan Musik</string>
+    <string name="activity_description4">Saya mendengarkan musik lewat Spotify, Apple Music, atau YouTube</string>
+
+    <string name="activity_title5">Belajar Mandiri</string>
+    <string name="activity_description5">Saya belajar mandiri seperti coding melalui YouTube dan kelas berbayar</string>
+
+    <string name="activity_title6">Media Sosial</string>
+    <string name="activity_description6">Saya bermain menggunakan Instagram dan Facebook, terkadang TikTok</string>
+
+    <string name="activity_title7">Menonton Series/Film</string>
+    <string name="activity_description7">Nonton di berbagai online streaming platform</string>
+
+    <string name="media_music_title1">Hati-hati di Jalan</string>
+    <string name="media_music_singer1">Tulus</string>
+
+    <string name="media_music_title2">I Don\'t Wanna Go</string>
+    <string name="media_music_singer2">Alan Walker, Julia Bergan</string>
+
+    <string name="media_music_title3">I Miss You</string>
+    <string name="media_music_singer3">Clean Bandit, Julia Michaels</string>
+
+    <string name="media_music_title4">Memories</string>
+    <string name="media_music_singer4">Maroon 5</string>
+
+    <string name="media_music_title5">Englishman in New York</string>
+    <string name="media_music_singer5">Sting</string>
+
+    <string name="media_music_title6">Bohemian Rhapsody</string>
+    <string name="media_music_singer6">Queen</string>
+
+    <string name="media_video_id1">uSQzUx3QW2Y</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

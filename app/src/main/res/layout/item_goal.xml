@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    NIM     : 10119172
+    Nama    : Rahman Insani
+    Kelas   : IF-5
+
+    Selasa, 08 Mei 2022
+-->
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/dimen12"
+    app:cardUseCompatPadding="true"
+    android:elevation="@dimen/dimen2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOrange"
+        android:padding="@dimen/dimen12">
+
+        <ImageView
+            android:id="@+id/goal_image"
+            android:layout_width="@dimen/dimen28"
+            android:layout_height="@dimen/dimen28"
+            android:src="@drawable/ic_goal_laptop" />
+
+        <TextView
+            android:id="@+id/goal_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dimen12"
+            style="@style/TextRubikRegularWhite16"
+            android:text="Goal Title" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

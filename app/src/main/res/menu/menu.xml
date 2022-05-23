@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    NIM     : 10119172
+    Nama    : Rahman Insani
+    Kelas   : IF-5
+
+    Selasa, 08 Mei 2022
+-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/daily_activity_fragment"
+        android:title="@string/activity"
+        android:icon="@drawable/ic_bottom_navigation_activity"/>
+
+    <item
+        android:id="@+id/gallery_fragment"
+        android:title="@string/gallery"
+        android:icon="@drawable/ic_bottom_navigation_gallery"/>
+
+    <item
+        android:id="@+id/home_fragment"
+        android:title="@string/home"
+        android:icon="@drawable/ic_bottom_navigation_home"/>
+
+    <item
+        android:id="@+id/media_fragment"
+        android:title="@string/media"
+        android:icon="@drawable/ic_bottom_navigation_media"/>
+
+    <item
+        android:id="@+id/profile_fragment"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_bottom_navigation_profile"/>
+
+</menu>
